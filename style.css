@@ -1,0 +1,183 @@
+*{margin: 0px;
+padding: 0px;}
+
+@keyframes ashishjat{
+			from{width: 0%;}
+
+			to{width: 100%;}
+
+}
+
+			div.animtion{background-color: red;
+			height: 1.5px;
+			animation-name: ashishjat;
+			animation-duration: 1s;
+			animation-timing-function: ease-in;
+			
+		}
+
+/*navbar style*/
+
+
+header{
+	background-color: blue;
+	    display: flex;
+    width: 100%;
+   
+   
+}
+
+.facebookimg{width: 74px;
+    height: 26px;
+    display: flex;
+    padding: 15px 22px;
+
+}
+
+
+.list ul {list-style: none;
+	display: flex;
+}
+
+.list ul li{padding: 16px 20px;
+}
+	
+
+.list ul li a{
+	text-decoration: none;
+	color: rgb(0% 89% 100%);
+
+}
+
+.search{
+	padding: 11px 10px;
+
+}
+
+.search input{
+	 width: 30vw;
+	 height: 22px;
+	
+border-radius: 5px;
+text-align:center;
+
+}
+
+
+.submit{
+	padding: 13px 0px;
+	
+	
+}
+
+.submit input{
+	 width: 55px;
+	 height: 22px;
+	 color: white;
+background-color: blue;
+border:2px solid #7d7ea9;
+cursor: pointer;
+	
+border-radius: 5px;
+text-align:center;
+
+
+}
+
+
+.login{display: flex;
+
+	padding: 13px 0px;
+	margin-left: 14%;
+	margin-right: 25px;
+	}
+
+
+
+.login input{
+	width: 61px;
+    	height: 25px;
+    	font-size: 18px;
+	 color: white;
+background-color: blue;
+border:2px solid #7d7ea9;
+cursor: pointer;
+	
+border-radius: 5px;
+text-align:center;
+
+
+}
+
+ul li a:hover{font-weight: bold;
+	font-size: 20px;
+}
+
+.lift{width: 100%;
+	display: flex;
+justify-content: right;}
+
+
+
+
+	.contact1 img{
+	
+	margin: 9px 5%;
+	height: 70vh;
+	width: 90%;
+
+
+}
+
+.card{
+	margin: 5px 10px ; font-size: 20px;
+
+}
+
+
+.contact{
+	
+	display: flex;
+	justify-content: space-around;
+	
+
+	flex-wrap: wrap;
+
+}
+
+.lines{
+	margin-top: 10px;
+}
+.card-item{ 
+	margin:15px 0px;
+	
+display: flex; 
+justify-content: center;
+flex-direction: column;
+
+text-align: center;}
+
+
+div.card-item img{width: 150px;
+height: 130px;}
+
+
+
+@media (max-width: 650px){
+	div.card-item img{width: 80vw;
+height: 250px;}
+
+.lines p{font-size: 20px;}
+
+
+.submit{
+	display: none;
+}
+
+.contact1 img{
+
+	height: 50vh;
+	
+
+
+}
